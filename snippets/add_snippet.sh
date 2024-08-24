@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 SNIPPET_NAME=$1
 SNIPPET_SOURCE=$2
 touch temp
@@ -7,7 +8,7 @@ perl -i -pe 's/\\n/\\\\n/g' temp #replace \n with \\n
 perl -i -pe 's/\\t/\\\\t/g' temp #replace \t with \\t
 SNIPPET="${SNIPPET_NAME}=$(cat temp)"
 rm -f temp
-echo $SNIPPET
+echo "Created $SNIPPET"
 
 sudo sed -i "
 /\[C++\]/ a\

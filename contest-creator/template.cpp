@@ -9,7 +9,7 @@ typedef long double LD;
 using namespace std;
  
 #ifdef LOCAL
-	#include "../../../utils/debug/debug.h"
+	#include "/opt/cp-utils/debugger/debug.h"
 #else
 	struct debug {
 		template<class c> debug & operator <<(const c&) { return *this; }
