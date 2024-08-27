@@ -11,8 +11,7 @@
 ## How to install cp-utils
 1. Download/clone the repo
 2. From the cp-utils directory, run `make`
-3. Add `/opt/cp-utils/bin` to your shell's `$PATH` (e.g : `PATH=$PATH:/opt/cp-utils/bin`); consider doing it in an appropriate startup/login script(e.g `/etc/profile.d/*.sh`, or the popular but
-   less appropriate `~/.bashrc`) to persist across shell sessions
+3. Add `/opt/cp-utils/bin` to your shell's `$PATH` (e.g : `PATH=$PATH:/opt/cp-utils/bin`); consider doing it in an appropriate startup/login script([e.g `/etc/profile.d/*.sh`](https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix/26962251#26962251)) to persist across shell sessions
 
 ## How to use cp-utils
 ### Creating a contest
