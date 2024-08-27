@@ -11,7 +11,7 @@
 ## How to install cp-utils
 1. Download/clone the repo
 2. From the cp-utils directory, run `make`
-3. Add `/opt/cp-utils/bin` to your shell's `$PATH` (e.g : `PATH=$PATH:/opt/cp-utils/bin`); consider doing it in an appropriate startup/login script(e.g `/etc/profile`, or the popular but
+3. Add `/opt/cp-utils/bin` to your shell's `$PATH` (e.g : `PATH=$PATH:/opt/cp-utils/bin`); consider doing it in an appropriate startup/login script(e.g `/etc/profile.d/*.sh`, or the popular but
    less appropriate `~/.bashrc`) to persist across shell sessions
 
 ## How to use cp-utils
@@ -30,7 +30,6 @@ The directory looks like -
 .
 .
 .
-└── ├── Z
 ```
 
 ### Adding snippet to Geany
