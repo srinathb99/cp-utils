@@ -4,5 +4,6 @@ P_NAME=$1
 mkdir $P_NAME
 cp /opt/cp-utils/problem-files/* ./$P_NAME
 mv ./$P_NAME/template.cpp ./$P_NAME/sol.cpp
+cp ./$P_NAME/sol.cpp ./$P_NAME/brute.cpp
 touch ./$P_NAME/in
 touch ./$P_NAME/out
