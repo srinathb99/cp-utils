@@ -1,3 +1,10 @@
 #!/bin/sh
-SNIPPET_NAME=$1
-sudo sed -i "/$SNIPPET_NAME=/d" /usr/share/geany/snippets.conf
+
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <snippet-name>"
+  exit 1
+fi
+
+snippet_name=$1
+conf_file="/usr/share/geany/snippets.conf"
+sudo sed -i "/$snippet_name=/d" $conf_file
