@@ -32,10 +32,10 @@ The directory looks like -
 ```
 
 ### Adding snippet to Geany
-Add a snippet to geany by running `add_snippet <snippet_name> </path/to/snippet/source/code>`
+Add a snippet to geany by running `add_snippet <snippet-name> </path/to/snippet/source/code>`
 
 ### Removing snippet from Geany
-Remove a snippet from geany by running `remove_snippet <snippet_name>`
+Remove a snippet from geany by running `remove_snippet <snippet-name>`
 
 ### Updating existing snippet
-Update a snippet by running `update_snippet <snippet_name> </path/to/updated/snippet/source/code>`
+Update a snippet by running `update_snippet <snippet-name> </path/to/updated/snippet/source/code>`
