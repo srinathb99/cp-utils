@@ -5,7 +5,7 @@
 - Provides an easy way to add snippets to Geany
   
 ## What cp-utils needs
-- A Linux environment with python3 and make installed
+- Bash or bash-like environment
 - Basic shell know-how
   
 ## How to install cp-utils
